@@ -1,9 +1,11 @@
-def my_collect(students)
+def my_collect(array)
   i = 0
-   collection = [students]
-   while i < array.length
-     collection << yield(array[i])
-     i += 1
-   end
-   collection
- end
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+  collection
+end
+
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]){|name| name.split(" ").first}
