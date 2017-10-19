@@ -8,4 +8,4 @@ def my_collect()
    collection
  end
 
-{['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']}
+my_collect (['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']){|name| name.split(" ").first}
