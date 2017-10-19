@@ -8,4 +8,3 @@ def my_collect()
    collection
  end
 
-my_collect( ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] ) { |student| student.split(" ").first}
