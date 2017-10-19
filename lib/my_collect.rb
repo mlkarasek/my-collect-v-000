@@ -7,4 +7,3 @@ def my_collect()
    end
    collection
  end
-
