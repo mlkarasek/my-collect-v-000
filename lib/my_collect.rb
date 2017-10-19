@@ -6,4 +6,6 @@ def my_collect()
      i += 1
    end
    collection
- end 
+ end
+
+{['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']}
